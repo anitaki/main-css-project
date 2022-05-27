@@ -49,6 +49,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
+  padding: 0.2rem 0 0 0;
 }
 
 ul {
@@ -110,20 +111,21 @@ footer {
   justify-content: center;
   align-items: center;
   width: 35%;
-  height: 220px;
+  height: 230px;
   background-color: #6d747d;
   text-align: center;
 }
 
 .button {
-  margin: 0.7rem 0;
+  margin: 1rem 0;
   padding: 0.3rem 1.5rem;
   background-color: #3882f6;
   color: #f9faf8;
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .container2 {
@@ -145,8 +147,8 @@ footer {
 .info-image {
   width: 150px;
   height: 150px;
-  border: 2px solid #3882f6;
-  border-radius: 5px;
+  border: 3.5px solid #3882f6;
+  border-radius: 15px;
 }
 
 .info-card {
@@ -154,7 +156,7 @@ footer {
   flex-direction: column;
   align-items: baseline;
   width: 150px;
-  margin: 1.5rem 1rem;
+  margin: 3.2rem 1.5rem;
 }
 
 .info-card figcaption {
@@ -196,10 +198,9 @@ footer {
   width: 60%;
   margin: 6rem auto;
   padding: 3rem 3rem;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #3882f6;
   color: #f9faf8;
-
 }
 
 .call-to-action-button {
@@ -211,6 +212,5 @@ footer {
   font-weight: bold;
   color: #f9faf8;
   border: 2px solid #f9faf8;
-  border-radius: 5px;
+  border-radius: 6px;
 }
-
