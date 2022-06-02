@@ -66,6 +66,16 @@ li {
   list-style: none;
 }
 
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 footer {
   margin: 3rem 0 0 0;
   padding: 2rem;
@@ -107,11 +117,7 @@ footer {
 }
 
 .hero-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35%;
-  height: 230px;
+  width: 40%;
   background-color: #6d747d;
   text-align: center;
 }
